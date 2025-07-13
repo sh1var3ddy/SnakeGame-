@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let dx = cellSize; // +20
     let dy = 0;
     let intervalId;
-    let gameSpeed = 200;
+    let gameSpeed = 500;
     
     function resetGame() {
         alert('Game Over' + '\n' + 'Your Score: ' + score);
